@@ -1,0 +1,7 @@
+package org.acme.insurance.policyquote;
+
+rule "TooManyTickets"
+	dialect "mvel"
+	when
+	then
+end
