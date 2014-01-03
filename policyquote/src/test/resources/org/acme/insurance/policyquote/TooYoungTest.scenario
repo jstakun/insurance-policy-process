@@ -22,14 +22,16 @@
           <fieldName>reason</fieldName>
           <expected>Too Young</expected>
           <operator>==</operator>
-          <nature>0</nature>
+          <nature>1</nature>
         </expect-field>
       </fieldValues>
       <name>Rejection</name>
       <anonymous>true</anonymous>
     </expect-fact>
   </fixtures>
-  <rules/>
+  <rules>
+    <string>TooYoung</string>
+  </rules>
   <inclusive>true</inclusive>
   <packageName>org.acme.insurance.policyquote</packageName>
   <imports>
