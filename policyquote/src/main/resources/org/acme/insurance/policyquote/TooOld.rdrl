@@ -1,0 +1,7 @@
+package org.acme.insurance.policyquote;
+
+rule "TooOld"
+	dialect "mvel"
+	when
+	then
+end
