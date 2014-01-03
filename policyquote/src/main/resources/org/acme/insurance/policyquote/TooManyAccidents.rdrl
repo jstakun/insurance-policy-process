@@ -1,7 +1,14 @@
 package org.acme.insurance.policyquote;
 
+import org.acme.insurance.Driver;
+import org.acme.insurance.Rejection;
+
 rule "TooManyAccidents"
 	dialect "mvel"
 	when
+		Driver( numberOfAccidents > 4 )
 	then
+		Rejection fact0 = new Rejection();
+		fact0.setReason( "Too Many Accidents" );
+		insert( fact0 );
 end
