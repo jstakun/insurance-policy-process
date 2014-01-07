@@ -1,0 +1,7 @@
+package org.acme.insurance.policyquote;
+
+rule "StartRuleflow"
+	dialect "mvel"
+	when
+	then
+end
