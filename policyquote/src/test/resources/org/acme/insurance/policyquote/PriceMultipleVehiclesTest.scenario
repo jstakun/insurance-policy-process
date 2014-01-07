@@ -169,6 +169,9 @@
       <org.drools.workbench.models.datamodel.imports.Import>
         <type>org.acme.insurance.Policy</type>
       </org.drools.workbench.models.datamodel.imports.Import>
+      <org.drools.workbench.models.datamodel.imports.Import>
+        <type>org.acme.insurance.Rejection</type>
+      </org.drools.workbench.models.datamodel.imports.Import>
     </imports>
   </imports>
 </scenario>
