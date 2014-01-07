@@ -29,7 +29,9 @@
       <anonymous>true</anonymous>
     </expect-fact>
   </fixtures>
-  <rules/>
+  <rules>
+    <string>TooYoung</string>
+  </rules>
   <inclusive>true</inclusive>
   <packageName>org.acme.insurance.policyquote</packageName>
   <imports>
