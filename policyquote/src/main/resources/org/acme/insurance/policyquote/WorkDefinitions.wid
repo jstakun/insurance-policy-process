@@ -55,6 +55,22 @@ import org.drools.core.process.core.datatype.impl.type.ObjectDataType;
     ],
     "displayName" : "REST",
     "icon" : "defaultservicenodeicon.png"
+  ],
+
+  [
+  // the Notification work item
+  [
+    "name" : "Notification",
+    "parameters" : [
+      "Message" : new StringDataType(),
+      "From" : new StringDataType(),
+      "To" : new StringDataType(),
+      "Priority" : new StringDataType(),
+    ],
+    "displayName" : "Notification",
+    "icon" : "icons/notification.png"
   ]
+  
+]
 
 ]
