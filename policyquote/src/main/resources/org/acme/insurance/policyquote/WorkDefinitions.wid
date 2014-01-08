@@ -58,8 +58,6 @@ import org.drools.core.process.core.datatype.impl.type.ObjectDataType;
   ],
 
   [
-  // the Notification work item
-  [
     "name" : "Notification",
     "parameters" : [
       "Message" : new StringDataType(),
@@ -70,7 +68,5 @@ import org.drools.core.process.core.datatype.impl.type.ObjectDataType;
     "displayName" : "Notification",
     "icon" : "icons/notification.png"
   ]
-  
-]
 
 ]
