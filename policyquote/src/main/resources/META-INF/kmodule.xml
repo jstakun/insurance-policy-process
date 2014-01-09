@@ -4,6 +4,7 @@
       <workItemHandlers>
         <workItemHandler type="new org.jbpm.process.instance.impl.demo.SystemOutWorkItemHandler()" name="Log"/>
         <workItemHandler type="new org.jbpm.process.workitem.bpmn2.ServiceTaskHandler(ksession)" name="Service Task"/>
+        <workItemHandler type="new com.acme.insurance.workitemhandlers.NotificationWorkItemHandler()" name="Notification"/>
       </workItemHandlers>
     </ksession>
   </kbase>
