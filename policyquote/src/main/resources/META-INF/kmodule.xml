@@ -1,6 +1,6 @@
 <kmodule xmlns="http://jboss.org/kie/6.0.0/kmodule" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <kbase name="policyQuoteKBase" default="true" eventProcessingMode="stream" equalsBehavior="equality">
-    <ksession name="policyQuoteKSession" type="stateful" default="true" clockType="realtime">
+  <kbase name="policyQuoteKBase" default="true" eventProcessingMode="stream" equalsBehavior="equality" declarativeAgenda="disabled" scope="javax.enterprise.context.ApplicationScoped" packages="*">
+    <ksession name="policyQuoteKSession" type="stateful" default="true" clockType="realtime" scope="javax.enterprise.context.ApplicationScoped">
       <workItemHandlers>
         <workItemHandler type="new org.jbpm.process.instance.impl.demo.SystemOutWorkItemHandler()" name="Log"/>
         <workItemHandler type="new org.jbpm.process.workitem.bpmn2.ServiceTaskHandler(ksession)" name="Service Task"/>
