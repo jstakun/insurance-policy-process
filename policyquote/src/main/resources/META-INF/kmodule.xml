@@ -1,6 +1,10 @@
 <kmodule xmlns="http://jboss.org/kie/6.0.0/kmodule" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <kbase name="defaultKBase" default="true" eventProcessingMode="stream" equalsBehavior="equality" packages="org.acme.insurance.policyquote">
-    <ksession name="defaultKSession" type="stateful" default="true" clockType="realtime"/>
+    <ksession name="defaultKSession" type="stateful" default="true" clockType="realtime">
+      <listeners>
+        <workingMemoryEventListener type=" new DebugRuleRuntimeEventListener()"/>
+      </listeners>
+    </ksession>
   </kbase>
   <kbase name="policyQuoteKBase" default="false" eventProcessingMode="stream" equalsBehavior="equality" declarativeAgenda="disabled" scope="javax.enterprise.context.ApplicationScoped" packages="org.acme.insurance.policyquote">
     <ksession name="policyQuoteKSession" type="stateful" default="false" clockType="realtime" scope="javax.enterprise.context.ApplicationScoped">
