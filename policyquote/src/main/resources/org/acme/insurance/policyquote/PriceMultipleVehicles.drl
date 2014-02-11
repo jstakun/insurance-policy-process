@@ -16,4 +16,5 @@ rule "PriceMultipleVehicles"
                 sum(priceVal))
     then
         modify(pMaster) {setPrice(totalPrice.intValue())}
+        System.out.println("Fired PriceMultipleVehicles rule");   
 end
