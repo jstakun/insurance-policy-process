@@ -1,5 +1,8 @@
 <kmodule xmlns="http://jboss.org/kie/6.0.0/kmodule" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <kbase name="policyQuoteKBase" default="true" eventProcessingMode="stream" equalsBehavior="equality" declarativeAgenda="disabled" scope="javax.enterprise.context.ApplicationScoped" packages="*">
+  <kbase name="defaultKBase" default="true" eventProcessingMode="stream" equalsBehavior="equality" packages="*">
+    <ksession name="defaultKSession" type="stateful" default="true" clockType="pseudo"/>
+  </kbase>
+  <kbase name="policyQuoteKBase" default="false" eventProcessingMode="stream" equalsBehavior="equality" declarativeAgenda="disabled" scope="javax.enterprise.context.ApplicationScoped" packages="com.acme.insurance.policyquote">
     <ksession name="policyQuoteKSession" type="stateful" default="true" clockType="realtime" scope="javax.enterprise.context.ApplicationScoped">
       <workItemHandlers>
         <workItemHandler type="new org.jbpm.process.instance.impl.demo.SystemOutWorkItemHandler()" name="Log"/>
@@ -7,6 +10,5 @@
         <workItemHandler type="new com.acme.insurance.workitemhandlers.NotificationWorkItemHandler()" name="Notification"/>
       </workItemHandlers>
     </ksession>
-    <ksession name="defaultKSession" type="stateful" default="false" clockType="pseudo"/>
   </kbase>
 </kmodule>
