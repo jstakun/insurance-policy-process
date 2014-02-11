@@ -3,7 +3,7 @@
     <ksession name="defaultKSession" type="stateful" default="true" clockType="pseudo"/>
   </kbase>
   <kbase name="policyQuoteKBase" default="true" eventProcessingMode="stream" equalsBehavior="equality" declarativeAgenda="disabled" scope="javax.enterprise.context.ApplicationScoped" packages="org.acme.insurance.policyquote">
-    <ksession name="policyQuoteKSession" type="stateful" default="true" clockType="realtime" scope="javax.enterprise.context.ApplicationScoped">
+    <ksession name="policyQuoteKSession" type="stateful" default="false" clockType="realtime" scope="javax.enterprise.context.ApplicationScoped">
       <workItemHandlers>
         <workItemHandler type="new org.jbpm.process.instance.impl.demo.SystemOutWorkItemHandler()" name="Log"/>
         <workItemHandler type="new org.jbpm.process.workitem.bpmn2.ServiceTaskHandler(ksession)" name="Service Task"/>
