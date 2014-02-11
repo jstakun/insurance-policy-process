@@ -7,6 +7,6 @@
         <workItemHandler type="new com.acme.insurance.workitemhandlers.NotificationWorkItemHandler()" name="Notification"/>
       </workItemHandlers>
     </ksession>
-    <ksession name="defaultKSession" type="stateful" default="false" clockType="realtime"/>
+    <ksession name="defaultKSession" type="stateful" default="true" clockType="realtime"/>
   </kbase>
 </kmodule>
