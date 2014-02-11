@@ -8,6 +8,7 @@ rule "TooOld"
 	ruleflow-group "rejection"
 	when
 		Driver( age > 99 )
+		System.out.println("Runing rule TooOld");
 	then
 		Rejection fact0 = new Rejection();
 		fact0.setReason( "Too Old" );
