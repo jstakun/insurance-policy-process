@@ -16,10 +16,18 @@
       <isModify>false</isModify>
     </fact-data>
     <execution-trace/>
-    <expect-rule>
-      <ruleName>TooOld</ruleName>
-      <expectedFire>true</expectedFire>
-    </expect-rule>
+    <expect-fact>
+      <fieldValues>
+        <expect-field>
+          <fieldName>reason</fieldName>
+          <expected>Too Old</expected>
+          <operator>==</operator>
+          <nature>0</nature>
+        </expect-field>
+      </fieldValues>
+      <name>Rejection</name>
+      <anonymous>true</anonymous>
+    </expect-fact>
   </fixtures>
   <rules/>
   <inclusive>false</inclusive>
