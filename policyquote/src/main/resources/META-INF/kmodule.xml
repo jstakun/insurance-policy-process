@@ -3,7 +3,7 @@
     <ksession name="defaultKSession" type="stateful" default="true" clockType="realtime">
        <consoleLogger />
        <listeners>
-         <ruleRuntimeEventListener />
+         <ruleRuntimeEventListener type="type1"/>
        </listeners> 
     </ksession>
   </kbase>
