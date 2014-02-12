@@ -3,7 +3,9 @@ package org.acme.insurance.policyquote;
 import java.lang.Number;
 
 rule "StartRuleflow"
-	dialect "mvel"
+	dialect "java"
+	salience 100
 	when
 	then
+		kcontext.getKnowledgeRuntime().startProcess("policyquote.policyquotecalculationprocess");
 end
