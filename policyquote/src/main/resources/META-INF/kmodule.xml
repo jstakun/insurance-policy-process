@@ -2,9 +2,6 @@
   <kbase name="defaultKBase" default="true" eventProcessingMode="stream" equalsBehavior="equality" packages="org.acme.insurance.policyquote">
     <ksession name="defaultKSession" type="stateful" default="true" clockType="realtime">
        <consoleLogger />
-       <listeners>
-         <ruleRuntimeEventListener type="org.kie.api.event.rule.DebugRuleRuntimeEventListener"/>
-       </listeners> 
     </ksession>
   </kbase>
   <kbase name="policyQuoteKBase" default="false" eventProcessingMode="stream" equalsBehavior="equality" declarativeAgenda="disabled" scope="javax.enterprise.context.ApplicationScoped" packages="org.acme.insurance.policyquote">
