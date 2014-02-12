@@ -1,3 +1,7 @@
+<bean id="mock-agenda-listener" class="mocks.MockAgendaEventListener"/>
+<bean id="mock-rr-listener" class="mocks.MockRuleRuntimeEventListener"/>
+<bean id="mock-process-listener" class="mocks.MockProcessEventListener"/>
+
 <kmodule xmlns="http://jboss.org/kie/6.0.0/kmodule" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <kbase name="defaultKBase" default="true" eventProcessingMode="stream" equalsBehavior="equality" packages="org.acme.insurance.policyquote">
     <ksession name="defaultKSession" type="stateful" default="true" clockType="realtime">
