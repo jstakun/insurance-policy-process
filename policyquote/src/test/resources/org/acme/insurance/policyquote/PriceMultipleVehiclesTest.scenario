@@ -96,6 +96,12 @@
       <name>pM</name>
       <isModify>false</isModify>
     </fact-data>
+    <org.drools.workbench.models.testscenarios.shared.ActivateRuleFlowGroup>
+      <name>total</name>
+    </org.drools.workbench.models.testscenarios.shared.ActivateRuleFlowGroup>
+    <org.drools.workbench.models.testscenarios.shared.ActivateRuleFlowGroup>
+      <name>calculation</name>
+    </org.drools.workbench.models.testscenarios.shared.ActivateRuleFlowGroup>
     <execution-trace/>
     <expect-rule>
       <ruleName>Row 4 CreditScoreDiscount</ruleName>
