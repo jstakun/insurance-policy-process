@@ -1,9 +1,0 @@
-package org.acme.insurance.policyquote;
-
-rule "StartRuleflow"
-	dialect "mvel"
-	salience 100
-	when
-	then
-		kcontext.getKnowledgeRuntime().startProcess("policyquote.policyquotecalculationprocess");
-end
