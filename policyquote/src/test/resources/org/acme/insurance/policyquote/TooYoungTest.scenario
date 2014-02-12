@@ -15,6 +15,9 @@
       <name>driver</name>
       <isModify>false</isModify>
     </fact-data>
+    <org.drools.workbench.models.testscenarios.shared.ActivateRuleFlowGroup>
+      <name>rejection</name>
+    </org.drools.workbench.models.testscenarios.shared.ActivateRuleFlowGroup>
     <execution-trace/>
     <expect-fact>
       <fieldValues>
@@ -29,7 +32,9 @@
       <anonymous>true</anonymous>
     </expect-fact>
   </fixtures>
-  <rules/>
+  <rules>
+    <string>TooYoung</string>
+  </rules>
   <inclusive>true</inclusive>
   <packageName>org.acme.insurance.policyquote</packageName>
   <imports>
