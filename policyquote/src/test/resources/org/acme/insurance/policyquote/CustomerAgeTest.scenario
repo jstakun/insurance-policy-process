@@ -8,7 +8,7 @@
       <fieldData>
         <field-data>
           <name>age</name>
-          <value>17</value>
+          <value>18</value>
           <nature>1</nature>
         </field-data>
       </fieldData>
@@ -20,7 +20,7 @@
       <fieldValues>
         <expect-field>
           <fieldName>creditScore</fieldName>
-          <expected>0.0</expected>
+          <expected>20.0</expected>
           <operator>==</operator>
           <nature>0</nature>
         </expect-field>
