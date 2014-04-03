@@ -14,7 +14,7 @@ static final long serialVersionUID = 1L;
     
     @org.kie.api.definition.type.Label(value = "Credit Score")
     @org.kie.api.definition.type.Position(value = 6)
-    private java.lang.Integer creditScore;
+    private java.lang.Double creditScore;
     
     @org.kie.api.definition.type.Label(value = "DL Number")
     @org.kie.api.definition.type.Position(value = 3)
@@ -39,7 +39,7 @@ static final long serialVersionUID = 1L;
     public Driver() {
     }
 
-    public Driver(java.lang.String driverName, java.lang.Integer age, java.lang.String ssn, java.lang.String dlNumber, java.lang.Integer numberOfAccidents, java.lang.Integer numberOfTickets, java.lang.Integer creditScore) {
+    public Driver(java.lang.String driverName, java.lang.Integer age, java.lang.String ssn, java.lang.String dlNumber, java.lang.Integer numberOfAccidents, java.lang.Integer numberOfTickets, java.lang.Double creditScore) {
         this.driverName = driverName;
         this.age = age;
         this.ssn = ssn;
@@ -59,11 +59,11 @@ static final long serialVersionUID = 1L;
         this.age = age;
     }
     
-    public java.lang.Integer getCreditScore() {
+    public java.lang.Double getCreditScore() {
         return this.creditScore;
     }
 
-    public void setCreditScore(  java.lang.Integer creditScore ) {
+    public void setCreditScore(  java.lang.Double creditScore ) {
         this.creditScore = creditScore;
     }
     
