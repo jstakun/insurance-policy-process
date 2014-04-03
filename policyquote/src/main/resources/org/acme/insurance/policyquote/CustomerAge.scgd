@@ -1,8 +1,8 @@
 <org.drools.workbench.models.guided.scorecard.shared.ScoreCardModel>
   <name>CustomerAge</name>
-  <reasonCodesAlgorithm>none</reasonCodesAlgorithm>
+  <reasonCodesAlgorithm>pointsAbove</reasonCodesAlgorithm>
   <baselineScore>0.0</baselineScore>
-  <initialScore>20.0</initialScore>
+  <initialScore>0.0</initialScore>
   <useReasonCodes>false</useReasonCodes>
   <factName>Driver</factName>
   <fieldName>creditScore</fieldName>
@@ -17,19 +17,19 @@
         <org.drools.workbench.models.guided.scorecard.shared.Attribute>
           <value>0-18</value>
           <partialScore>0.0</partialScore>
-          <reasonCode></reasonCode>
+          <reasonCode>Too Young</reasonCode>
           <operator>&gt;=..&lt;</operator>
         </org.drools.workbench.models.guided.scorecard.shared.Attribute>
         <org.drools.workbench.models.guided.scorecard.shared.Attribute>
           <value>18-65</value>
           <partialScore>20.0</partialScore>
-          <reasonCode></reasonCode>
+          <reasonCode>OK</reasonCode>
           <operator>&gt;=..&lt;=</operator>
         </org.drools.workbench.models.guided.scorecard.shared.Attribute>
         <org.drools.workbench.models.guided.scorecard.shared.Attribute>
           <value>65</value>
           <partialScore>10.0</partialScore>
-          <reasonCode></reasonCode>
+          <reasonCode>Too Old</reasonCode>
           <operator>&gt;</operator>
         </org.drools.workbench.models.guided.scorecard.shared.Attribute>
       </attributes>
