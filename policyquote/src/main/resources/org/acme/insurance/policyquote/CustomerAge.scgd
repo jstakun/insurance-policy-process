@@ -1,6 +1,6 @@
 <org.drools.workbench.models.guided.scorecard.shared.ScoreCardModel>
   <name>CustomerAge</name>
-  <reasonCodesAlgorithm>pointsAbove</reasonCodesAlgorithm>
+  <reasonCodesAlgorithm>none</reasonCodesAlgorithm>
   <baselineScore>0.0</baselineScore>
   <initialScore>0.0</initialScore>
   <useReasonCodes>false</useReasonCodes>
