@@ -2,7 +2,7 @@
   <name>CustomerAge</name>
   <reasonCodesAlgorithm>none</reasonCodesAlgorithm>
   <baselineScore>0.0</baselineScore>
-  <initialScore>0.0</initialScore>
+  <initialScore>20.0</initialScore>
   <useReasonCodes>false</useReasonCodes>
   <factName>Driver</factName>
   <fieldName>creditScore</fieldName>
