@@ -20,7 +20,7 @@
       <fieldValues>
         <expect-field>
           <fieldName>creditScore</fieldName>
-          <expected>20.0</expected>
+          <expected>0.0</expected>
           <operator>==</operator>
           <nature>0</nature>
         </expect-field>
