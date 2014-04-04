@@ -11,6 +11,11 @@
           <value>17</value>
           <nature>1</nature>
         </field-data>
+        <field-data>
+          <name>numberOfAccidents</name>
+          <value></value>
+          <nature>1</nature>
+        </field-data>
       </fieldData>
       <name>driver</name>
       <isModify>false</isModify>
@@ -22,7 +27,7 @@
           <fieldName>creditScore</fieldName>
           <expected>0.0</expected>
           <operator>==</operator>
-          <nature>0</nature>
+          <nature>1</nature>
         </expect-field>
       </fieldValues>
       <name>driver</name>
