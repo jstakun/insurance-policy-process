@@ -10,6 +10,10 @@
   <characteristics/>
   <packageName>org.acme.insurance.policyquote</packageName>
   <imports>
-    <imports/>
+    <imports>
+      <org.drools.workbench.models.datamodel.imports.Import>
+        <type>org.acme.insurance.Driver</type>
+      </org.drools.workbench.models.datamodel.imports.Import>
+    </imports>
   </imports>
 </org.drools.workbench.models.guided.scorecard.shared.ScoreCardModel>
