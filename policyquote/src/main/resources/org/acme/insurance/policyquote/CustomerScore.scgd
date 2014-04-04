@@ -61,7 +61,7 @@
           <operator>&gt;</operator>
         </org.drools.workbench.models.guided.scorecard.shared.Attribute>
       </attributes>
-      <name></name>
+      <name>CustomerNumberOfAccidents</name>
       <dataType>int</dataType>
     </org.drools.workbench.models.guided.scorecard.shared.Characteristic>
   </characteristics>
