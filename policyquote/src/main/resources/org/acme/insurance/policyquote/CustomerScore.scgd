@@ -36,6 +36,34 @@
       <name>CustomerAge</name>
       <dataType>int</dataType>
     </org.drools.workbench.models.guided.scorecard.shared.Characteristic>
+    <org.drools.workbench.models.guided.scorecard.shared.Characteristic>
+      <fact>Driver</fact>
+      <field>numberOfAccidents</field>
+      <baselineScore>0.0</baselineScore>
+      <reasonCode></reasonCode>
+      <attributes>
+        <org.drools.workbench.models.guided.scorecard.shared.Attribute>
+          <value>0</value>
+          <partialScore>10.0</partialScore>
+          <reasonCode></reasonCode>
+          <operator>=</operator>
+        </org.drools.workbench.models.guided.scorecard.shared.Attribute>
+        <org.drools.workbench.models.guided.scorecard.shared.Attribute>
+          <value>1</value>
+          <partialScore>5.0</partialScore>
+          <reasonCode></reasonCode>
+          <operator>=</operator>
+        </org.drools.workbench.models.guided.scorecard.shared.Attribute>
+        <org.drools.workbench.models.guided.scorecard.shared.Attribute>
+          <value>1</value>
+          <partialScore>0.0</partialScore>
+          <reasonCode></reasonCode>
+          <operator>&gt;</operator>
+        </org.drools.workbench.models.guided.scorecard.shared.Attribute>
+      </attributes>
+      <name></name>
+      <dataType>int</dataType>
+    </org.drools.workbench.models.guided.scorecard.shared.Characteristic>
   </characteristics>
   <packageName>org.acme.insurance.policyquote</packageName>
   <imports>
