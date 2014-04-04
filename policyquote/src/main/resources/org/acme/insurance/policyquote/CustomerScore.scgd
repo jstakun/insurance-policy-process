@@ -7,7 +7,36 @@
   <factName>Driver</factName>
   <fieldName>creditScore</fieldName>
   <reasonCodeField></reasonCodeField>
-  <characteristics/>
+  <characteristics>
+    <org.drools.workbench.models.guided.scorecard.shared.Characteristic>
+      <fact>Driver</fact>
+      <field>age</field>
+      <baselineScore>0.0</baselineScore>
+      <reasonCode></reasonCode>
+      <attributes>
+        <org.drools.workbench.models.guided.scorecard.shared.Attribute>
+          <value>0-18</value>
+          <partialScore>0.0</partialScore>
+          <reasonCode></reasonCode>
+          <operator>&gt;=..&lt;</operator>
+        </org.drools.workbench.models.guided.scorecard.shared.Attribute>
+        <org.drools.workbench.models.guided.scorecard.shared.Attribute>
+          <value>18-65</value>
+          <partialScore>10.0</partialScore>
+          <reasonCode></reasonCode>
+          <operator>&gt;=..&lt;=</operator>
+        </org.drools.workbench.models.guided.scorecard.shared.Attribute>
+        <org.drools.workbench.models.guided.scorecard.shared.Attribute>
+          <value>65</value>
+          <partialScore>20.0</partialScore>
+          <reasonCode></reasonCode>
+          <operator>&gt;</operator>
+        </org.drools.workbench.models.guided.scorecard.shared.Attribute>
+      </attributes>
+      <name>CustomerAge</name>
+      <dataType>int</dataType>
+    </org.drools.workbench.models.guided.scorecard.shared.Characteristic>
+  </characteristics>
   <packageName>org.acme.insurance.policyquote</packageName>
   <imports>
     <imports>
