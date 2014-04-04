@@ -1,10 +1,11 @@
 <org.drools.workbench.models.guided.scorecard.shared.ScoreCardModel>
   <name>CustomerScore</name>
+  <reasonCodesAlgorithm>none</reasonCodesAlgorithm>
   <baselineScore>0.0</baselineScore>
   <initialScore>0.0</initialScore>
   <useReasonCodes>false</useReasonCodes>
-  <factName></factName>
-  <fieldName></fieldName>
+  <factName>CustomerAge</factName>
+  <fieldName>calculatedScore</fieldName>
   <reasonCodeField></reasonCodeField>
   <characteristics/>
   <packageName>org.acme.insurance.policyquote</packageName>
