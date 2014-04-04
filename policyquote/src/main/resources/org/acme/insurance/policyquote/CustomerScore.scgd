@@ -4,8 +4,8 @@
   <baselineScore>0.0</baselineScore>
   <initialScore>0.0</initialScore>
   <useReasonCodes>false</useReasonCodes>
-  <factName>CustomerAge</factName>
-  <fieldName>calculatedScore</fieldName>
+  <factName>Driver</factName>
+  <fieldName>creditScore</fieldName>
   <reasonCodeField></reasonCodeField>
   <characteristics/>
   <packageName>org.acme.insurance.policyquote</packageName>
