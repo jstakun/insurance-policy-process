@@ -15,13 +15,13 @@
       <reasonCode></reasonCode>
       <attributes>
         <org.drools.workbench.models.guided.scorecard.shared.Attribute>
-          <value>0-18</value>
+          <value>0,18</value>
           <partialScore>0.0</partialScore>
           <reasonCode>Too Young</reasonCode>
           <operator>&gt;=..&lt;</operator>
         </org.drools.workbench.models.guided.scorecard.shared.Attribute>
         <org.drools.workbench.models.guided.scorecard.shared.Attribute>
-          <value>18-66</value>
+          <value>18,66</value>
           <partialScore>20.0</partialScore>
           <reasonCode>OK</reasonCode>
           <operator>&gt;=..&lt;</operator>
