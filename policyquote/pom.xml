@@ -5,13 +5,17 @@
   <groupId>org.acme.insurance</groupId>
   <artifactId>policyquote</artifactId>
   <version>1.0.3</version>
-  <packaging>kjar</packaging>
+  <packaging>jar</packaging>
   <name>policyquote</name>
   <repositories>
     <repository>
       <id>guvnor-m2-repo</id>
       <name>Guvnor M2 Repo</name>
       <url>http://localhost:8080/business-central/maven2/</url>
+    </repository>
+    <repository>
+      <id>jboss</id>
+      <url>http://repository.jboss.org/nexus/content/groups/public/</url>
     </repository>
   </repositories>
   <build>
@@ -24,4 +28,11 @@
       </plugin>
     </plugins>
   </build>
+  <dependencies>
+  	<dependency>
+  		<groupId>org.json</groupId>
+  		<artifactId>json</artifactId>
+  		<version>20140107</version>
+  	</dependency>
+  </dependencies>
 </project>
