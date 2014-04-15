@@ -175,15 +175,15 @@
 <property name="defaultSubform" value="auditor-subform.form"/>
 <property name="previewSubform" value="auditor-subform.form"/>
 <property name="tableSubform" value="auditor-subform.form"/>
-<property name="newItemText" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="newItemText" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Add commentquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="addItemText" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="cancelItemText" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="deleteItems" value="true"/>
-<property name="updateItems" value="false"/>
-<property name="visualizeItems" value="false"/>
+<property name="updateItems" value="true"/>
+<property name="visualizeItems" value="true"/>
 <property name="hideCreateItem" value="false"/>
 <property name="expanded" value="false"/>
-<property name="enableTableEnterData" value="false"/>
+<property name="enableTableEnterData" value="true"/>
 <property name="fieldClass" value="java.util.List"/>
 </field>
 <dataHolder inputId="taskDriver" name="#FF54A7" type="dataModelerEntry" outId="" value="org.acme.insurance.Driver" id="driver"/>
