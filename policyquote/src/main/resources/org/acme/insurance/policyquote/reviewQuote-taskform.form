@@ -2,7 +2,8 @@
 <form id="788377667">
 <property name="subject" value=""/>
 <property name="name" value="reviewQuote-taskform.form"/>
-<property name="displayMode" value="default"/>
+<property name="displayMode" value="aligned"/>
+<property name="labelMode" value="undefined"/>
 <property name="status" value="0"/>
 <field position="0" name="driver_age" type="InputTextInteger" id="1684887488">
 <property name="fieldRequired" value="false"/>
@@ -83,7 +84,7 @@
 <property name="fieldRequired" value="false"/>
 <property name="labelCSSClass" value=""/>
 <property name="labelCSSStyle" value=""/>
-<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Pricequot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Pricequot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="readonly" value="true"/>
@@ -115,25 +116,6 @@
 <property name="outputBinding" value=""/>
 <property name="fieldClass" value="java.lang.Integer"/>
 </field>
-<field position="8" name="price" type="InputTextInteger" id="1917772842">
-<property name="fieldRequired" value="true"/>
-<property name="groupWithPrevious" value="false"/>
-<property name="labelCSSClass" value=""/>
-<property name="labelCSSStyle" value=""/>
-<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Pricequot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
-<property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
-<property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
-<property name="readonly" value="false"/>
-<property name="size" value=""/>
-<property name="formula" value=""/>
-<property name="rangeFormula" value=""/>
-<property name="styleclass" value=""/>
-<property name="cssStyle" value=""/>
-<property name="defaultValueFormula" value="={taskPolicy/price}*2"/>
-<property name="inputBinding" value=""/>
-<property name="outputBinding" value="taskPrice"/>
-<property name="fieldClass" value="java.lang.Integer"/>
-</field>
 <field position="6" name=":decorator_0" type="Separator" id="315019549">
 <property name="fieldRequired" value="false"/>
 <property name="groupWithPrevious" value="false"/>
@@ -148,16 +130,49 @@
 <property name="label" value=""/>
 <property name="inputBinding" value=""/>
 <property name="outputBinding" value=""/>
-<property name="htmlContent" value="quot;caquot;,quot;&lt;p&gt;Please enter new Price:&lt;/p&gt;
-quot;quot;dequot;,quot;&lt;p&gt;Please enter new Price:&lt;/p&gt;
-quot;quot;enquot;,quot;&lt;p&gt;Please enter new Price:&lt;/p&gt;
-quot;quot;esquot;,quot;&lt;p&gt;Please enter new Price:&lt;/p&gt;
-quot;quot;frquot;,quot;&lt;p&gt;Please enter new Price:&lt;/p&gt;
-quot;quot;jaquot;,quot;&lt;p&gt;Please enter new Price:&lt;/p&gt;
-quot;quot;ptquot;,quot;&lt;p&gt;Please enter new Price:&lt;/p&gt;
-quot;quot;zhquot;,quot;&lt;p&gt;Please enter new Price:&lt;/p&gt;
-quot;"/>
+<property name="htmlContent" value="quot;caquot;,quot;&lt;p&gt;Please enter new Price:&lt;/p&gt; quot;quot;dequot;,quot;&lt;p&gt;Please enter new Price:&lt;/p&gt; quot;quot;enquot;,quot;&lt;p&gt;Please enter new Price:&lt;/p&gt; quot;quot;esquot;,quot;&lt;p&gt;Please enter new Price:&lt;/p&gt; quot;quot;frquot;,quot;&lt;p&gt;Please enter new Price:&lt;/p&gt; quot;quot;jaquot;,quot;&lt;p&gt;Please enter new Price:&lt;/p&gt; quot;quot;ptquot;,quot;&lt;p&gt;Please enter new Price:&lt;/p&gt; quot;quot;zhquot;,quot;&lt;p&gt;Please enter new Price:&lt;/p&gt; quot;"/>
 <property name="fieldClass" value="HTMLlabel"/>
+</field>
+<field position="8" name="price" type="InputTextInteger" id="1917772842">
+<property name="fieldRequired" value="true"/>
+<property name="groupWithPrevious" value="false"/>
+<property name="labelCSSClass" value=""/>
+<property name="labelCSSStyle" value=""/>
+<property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Pricequot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="readonly" value="false"/>
+<property name="size" value=""/>
+<property name="formula" value=""/>
+<property name="rangeFormula" value=""/>
+<property name="styleclass" value=""/>
+<property name="cssStyle" value=""/>
+<property name="defaultValueFormula" value="={taskPolicy/price}*2"/>
+<property name="inputBinding" value=""/>
+<property name="outputBinding" value="taskPrice"/>
+<property name="fieldClass" value="java.lang.Integer"/>
+</field>
+<field position="9" name=":decorator_2" type="Separator" id="1785207330">
+<property name="fieldRequired" value="false"/>
+<property name="label" value=""/>
+<property name="inputBinding" value=""/>
+<property name="outputBinding" value=""/>
+<property name="fieldClass" value="Separator"/>
+</field>
+<field position="10" name="auditorComments" type="Subform" id="85998799">
+<property name="fieldRequired" value="false"/>
+<property name="labelCSSClass" value=""/>
+<property name="labelCSSStyle" value=""/>
+<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Auditor Commentsquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="readonly" value="false"/>
+<property name="styleclass" value=""/>
+<property name="cssStyle" value=""/>
+<property name="inputBinding" value=""/>
+<property name="outputBinding" value="auditMessage"/>
+<property name="defaultSubform" value="auditor-subform.form"/>
+<property name="fieldClass" value="java.lang.Object"/>
 </field>
 <dataHolder inputId="taskDriver" name="#FF54A7" type="dataModelerEntry" outId="" value="org.acme.insurance.Driver" id="driver"/>
 <dataHolder inputId="taskPolicy" name="#A7E690" type="dataModelerEntry" outId="" value="org.acme.insurance.Policy" id="policy"/>
