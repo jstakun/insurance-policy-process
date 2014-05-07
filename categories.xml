@@ -2,7 +2,20 @@
   <children>
     <org.guvnor.common.services.shared.metadata.model.CategoryItem>
       <parent class="org.guvnor.common.services.shared.metadata.model.Categories" reference="../../.."/>
-      <children/>
+      <children>
+        <org.guvnor.common.services.shared.metadata.model.CategoryItem>
+          <parent reference="../../.."/>
+          <children/>
+          <name>Insurance</name>
+          <description></description>
+        </org.guvnor.common.services.shared.metadata.model.CategoryItem>
+        <org.guvnor.common.services.shared.metadata.model.CategoryItem>
+          <parent reference="../../.."/>
+          <children/>
+          <name>Banking</name>
+          <description></description>
+        </org.guvnor.common.services.shared.metadata.model.CategoryItem>
+      </children>
       <name>FSI</name>
       <description></description>
     </org.guvnor.common.services.shared.metadata.model.CategoryItem>
