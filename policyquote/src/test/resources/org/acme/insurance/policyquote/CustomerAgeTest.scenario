@@ -8,7 +8,7 @@
       <fieldData>
         <field-data>
           <name>age</name>
-          <value>18</value>
+          <value>19</value>
           <nature>4</nature>
         </field-data>
         <field-data>
@@ -21,7 +21,7 @@
       <isModify>false</isModify>
     </fact-data>
     <execution-trace>
-      <executionTimeResult>9</executionTimeResult>
+      <executionTimeResult>2</executionTimeResult>
       <numberOfRulesFired>1</numberOfRulesFired>
     </execution-trace>
     <expect-fact>
@@ -40,7 +40,7 @@
       <anonymous>false</anonymous>
     </expect-fact>
   </fixtures>
-  <lastRunResult>2015-07-01 11:44:18.312 UTC</lastRunResult>
+  <lastRunResult>2015-07-01 11:50:32.973 UTC</lastRunResult>
   <rules/>
   <inclusive>true</inclusive>
   <packageName>org.acme.insurance.policyquote</packageName>
